@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, 
+    user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Contactos | You</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                     <span class="icon-phone">999-999-999</span>   
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-location">Barrio Mexico 123- Puyo</span>
+                </p>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="/" class="menu__link ">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link ">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link ">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu_link--select">C ontacto</a></li>
+            </ul> 
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-email"></span></a>
+            </div>  
+        </div>
+    </nav>
+    
+    <section class="section banner">
+        <img src="img/banner-contact.jpg" alt="" class="banner__img">
+        <div class="banner__content">Dèjanos un mensaje</div>
+    </section>
+    <!--CONTIENE TODA LA INFORMACION DE LA PAGINA-->
+    <main class="main">
+        <div class="group contact">
+            <h2 class="group__title">Contactenos</h2>
+            <div class="container container--flex">
+                <div class="contact-information column column--50">
+                    <h3 class="column__title">Informaciòn de contacto</h3>
+                    <p class="column__txt">span.icon-Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, aspernatur quas adipisci ducimus reprehenderit rem, similique dolore officiis modi, eveniet deleniti.</p>
+                    <p class="column__txt"><span class="icon-phone"></span>Telefono 1: 999-999-999
+                    </p>
+                    <p class="column__txt"><span class="icon-phone"></span>Telefono 2: 555-555-555</p>
+                    <p class="column__txt"><span class="icon-location"></span>Barrio Mexico 123- Puyo</p>
+                    <p class="column__txt"><span class="icon-email"></span>consultas@restaurante.com</p>
+                    <div class="social-icon">
+                        <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                        <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                        <a href="" class="social-icon__link"><span class="icon-email"></span></a>
+                    </div> 
+                </div>
+                <form action="" method="POST" class="formulario column column--50">
+                    <label for="" class="formulario__label">Nombre:</label>
+                    <input type="text" class="formulario__input-txt" name="nombre">
+                    <label for="" class="formulario__label">Correo:</label>
+                    <input type="text" class="formulario__input-txt" name="correo">
+                    <label for="" class="formulario__label">Telefono:</label>
+                    <input type="text" class="formulario__input-txt" name="telefono">
+                    <label for="" class="formulario__label">Mensaje:</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea">
+                    </textarea>
+                    <input type="submit" class="btn formulario__btn" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+        <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">¿Por que visitarnos?</h2>
+                <p class="column__txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque dolore, neque autem necessitatibus quis provident, culpa, eaque impedit excepturi quaerat nobis aliquam eos repudiandae earum? Tenetur officiis ullam repellat. Soluta.</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contactanos</h2>
+                <p class="column__txt">Barrio Mexico</p>
+                <p class="column__txt">Telefono: 999-999-999</p>
+                <p class="column__txt">consultas@restaurante.com</p>
+                
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Siguenos en nuestras redes sociales</h2>
+                <p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p>
+                <p class="column__txt"><a href="" class="icon-twitter"></a>Siguenos en Twitter</p>
+                <p class="column__txt"><a href="" class="icon-youtube"></a>Visita nuestro canal</p>
+            </div>
+            <p class="copy">@2020 Your Restaurant | Todos los derechos reservados</p>
+        </div>
+        </footer>
+        <script src="js/menu.js"></script>
+        <script src="js/modal.js"></script>
+</body>
+</html>
